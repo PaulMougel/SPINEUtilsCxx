@@ -43,3 +43,9 @@ GDCM_USE_SYSTEM_OPENSSL ON
 Compile and install GDCM.
 
 
+== Installation
+
+ $ mkdir tmp && cd tmp
+ $ ccmake -DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL ..
+ $ make
+ $ make install
